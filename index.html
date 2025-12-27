@@ -1,220 +1,38 @@
-+<!doctype html>
-+<html lang="ja">
-+<head>
-+  <meta charset="utf-8" />
-+  <meta name="viewport" content="width=device-width,initial-scale=1" />
-+  <title>GalaTone | Apple風ギャラ飲み</title>
-+  <link rel="stylesheet" href="style.css" />
-+  <link rel="preconnect" href="https://fonts.googleapis.com" />
-+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-+</head>
-+<body>
-+  <header class="site-header">
-+    <nav class="nav inner">
-+      <div class="brand">
-+        <span class="brand-mark">◦</span>
-+        <span class="brand-name">GalaTone</span>
-+      </div>
-+      <div class="nav-links">
-+        <a href="#service">サービス</a>
-+        <a href="#hosts">ホスト</a>
-+        <a href="#flow">流れ</a>
-+        <a href="#plans">プラン</a>
-+        <button class="ghost">ログイン</button>
-+        <button class="solid">無料で始める</button>
-+      </div>
-+      <button class="menu">メニュー</button>
-+    </nav>
-+  </header>
-+
-+  <main>
-+    <section class="hero">
-+      <div class="inner hero-inner">
-+        <div class="hero-copy">
-+          <p class="eyebrow">Gala Drinking — Apple Inspired Experience</p>
-+          <h1>夜のひとときを、
-+            <span>上質な出会い</span>へ。</h1>
-+          <p class="lead">審査制ホストと安心のプライベート空間。GalaToneはギャラ飲みを、
-+            もっと洗練された時間に変えるプラットフォームです。</p>
-+          <div class="hero-actions">
-+            <button class="solid">今夜の予約をする</button>
-+            <button class="ghost">サービス資料を見る</button>
-+          </div>
-+          <div class="hero-meta">
-+            <div>
-+              <p class="meta-title">掲載エリア</p>
-+              <p class="meta-value">東京・大阪・福岡</p>
-+            </div>
-+            <div>
-+              <p class="meta-title">平均マッチング時間</p>
-+              <p class="meta-value">18分</p>
-+            </div>
-+            <div>
-+              <p class="meta-title">満足度</p>
-+              <p class="meta-value">4.9 / 5.0</p>
-+            </div>
-+          </div>
-+        </div>
-+        <div class="hero-card">
-+          <div class="glass-card">
-+            <p class="card-title">Tonight&apos;s Host</p>
-+            <h3>Rina</h3>
-+            <p class="card-tag">表参道・英語対応</p>
-+            <div class="card-metric">
-+              <span>¥24,000</span>
-+              <span> / 2h</span>
-+            </div>
-+            <button class="solid full">このホストで予約</button>
-+            <p class="card-note">本人確認・面談・写真審査済み</p>
-+          </div>
-+        </div>
-+      </div>
-+    </section>
-+
-+    <section id="service" class="section">
-+      <div class="inner">
-+        <div class="section-head">
-+          <h2>サービスの特徴</h2>
-+          <p>Appleのような直感性と透明性を、夜の体験にも。</p>
-+        </div>
-+        <div class="grid three">
-+          <article class="tile">
-+            <h3>審査制ホスト</h3>
-+            <p>身元確認・面談・マナー研修を通過したホストのみ掲載。</p>
-+          </article>
-+          <article class="tile">
-+            <h3>スマート予約</h3>
-+            <p>1分で希望条件を入力。最短18分でマッチング。</p>
-+          </article>
-+          <article class="tile">
-+            <h3>安心の決済</h3>
-+            <p>完全キャッシュレス。事前決済とレビューでトラブルを防止。</p>
-+          </article>
-+        </div>
-+      </div>
-+    </section>
-+
-+    <section id="hosts" class="section soft">
-+      <div class="inner">
-+        <div class="section-head">
-+          <h2>トップホスト</h2>
-+          <p>上質な会話と気配りで選ばれるホストたち。</p>
-+        </div>
-+        <div class="grid three">
-+          <article class="host-card">
-+            <p class="host-name">Rina</p>
-+            <p class="host-meta">表参道 / 英語 / 5年</p>
-+            <p class="host-desc">ブランド勤務経験を活かしたエレガントな時間。</p>
-+          </article>
-+          <article class="host-card">
-+            <p class="host-name">Sota</p>
-+            <p class="host-meta">梅田 / ワイン / 4年</p>
-+            <p class="host-desc">ソムリエ資格保持。ワインペアリングが得意。</p>
-+          </article>
-+          <article class="host-card">
-+            <p class="host-name">Mina</p>
-+            <p class="host-meta">天神 / 韓国語 / 3年</p>
-+            <p class="host-desc">多言語対応で海外ゲストにも人気。</p>
-+          </article>
-+        </div>
-+      </div>
-+    </section>
-+
-+    <section id="flow" class="section">
-+      <div class="inner">
-+        <div class="section-head">
-+          <h2>ご利用の流れ</h2>
-+          <p>わずか3ステップで、洗練された夜へ。</p>
-+        </div>
-+        <ol class="flow">
-+          <li>
-+            <h3>条件を入力</h3>
-+            <p>日時・エリア・雰囲気を選択。</p>
-+          </li>
-+          <li>
-+            <h3>ホストを確認</h3>
-+            <p>プロフィールとレビューを比較。</p>
-+          </li>
-+          <li>
-+            <h3>予約完了</h3>
-+            <p>決済後、専用チャットで当日の詳細を共有。</p>
-+          </li>
-+        </ol>
-+      </div>
-+    </section>
-+
-+    <section id="plans" class="section soft">
-+      <div class="inner">
-+        <div class="section-head">
-+          <h2>プラン</h2>
-+          <p>用途に合わせたスマートな料金設計。</p>
-+        </div>
-+        <div class="grid three">
-+          <article class="plan">
-+            <h3>Light</h3>
-+            <p class="price">¥12,000 <span>/ 1h</span></p>
-+            <ul>
-+              <li>ホスト1名</li>
-+              <li>チャットサポート</li>
-+              <li>標準レビュー閲覧</li>
-+            </ul>
-+            <button class="ghost">詳細</button>
-+          </article>
-+          <article class="plan featured">
-+            <p class="badge">Popular</p>
-+            <h3>Signature</h3>
-+            <p class="price">¥24,000 <span>/ 2h</span></p>
-+            <ul>
-+              <li>ホスト1名</li>
-+              <li>専属コンシェルジュ</li>
-+              <li>優先マッチング</li>
-+            </ul>
-+            <button class="solid">予約する</button>
-+          </article>
-+          <article class="plan">
-+            <h3>Private</h3>
-+            <p class="price">¥42,000 <span>/ 3h</span></p>
-+            <ul>
-+              <li>ホスト2名</li>
-+              <li>VIP会場手配</li>
-+              <li>リピート割引</li>
-+            </ul>
-+            <button class="ghost">相談する</button>
-+          </article>
-+        </div>
-+      </div>
-+    </section>
-+
-+    <section class="cta">
-+      <div class="inner cta-inner">
-+        <div>
-+          <h2>今夜の体験をアップグレード</h2>
-+          <p>完全招待制のコミュニティで、安心して楽しめる夜を。</p>
-+        </div>
-+        <button class="solid">無料で始める</button>
-+      </div>
-+    </section>
-+  </main>
-+
-+  <footer class="site-footer">
-+    <div class="inner footer-inner">
-+      <div>
-+        <p class="brand-name">GalaTone</p>
-+        <p class="footer-note">洗練された夜の体験をデザイン。</p>
-+      </div>
-+      <div class="footer-links">
-+        <a href="#service">サービス</a>
-+        <a href="#hosts">ホスト</a>
-+        <a href="#flow">流れ</a>
-+        <a href="#plans">プラン</a>
-+      </div>
-+      <div class="footer-cta">
-+        <p>お問い合わせ: hello@galatone.jp</p>
-+        <button class="ghost">サポート</button>
-+      </div>
-+    </div>
-+    <p class="copyright">© 2025 GalaTone. All rights reserved.</p>
-+  </footer>
-+</body>
-+</html>
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gold | ギャラ飲みマッチングサービス</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Noto+Sans+JP', sans-serif;
+        background-color: #0a0a0a;
+        color: #f5f5f5;
+      }
+      .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      /* Custom smooth scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
