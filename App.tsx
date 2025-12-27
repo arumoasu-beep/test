@@ -212,7 +212,7 @@ const App: React.FC = () => {
               href="tel:0000000000" 
               className={`w-full bg-white text-black py-4 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg ${interactiveClass}`}
             >
-              <Phone size={20} /> 電話で相談
+              <Phone size={20} /> 電話で予約
             </a>
           </div>
           
@@ -249,7 +249,7 @@ const App: React.FC = () => {
               href="tel:0000000000" 
               className={`w-full max-w-[280px] bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-4 rounded-full flex items-center justify-center gap-3 font-bold text-lg shadow-xl ${interactiveClass}`}
             >
-              <Phone size={22} /> 電話で相談
+              <Phone size={22} /> 電話で予約
             </a>
           </div>
         </div>
@@ -439,7 +439,7 @@ const App: React.FC = () => {
             href="tel:0000000000" 
             className={`flex-1 bg-white text-black py-3.5 rounded-full flex items-center justify-center gap-2 font-bold text-sm shadow-xl ${interactiveClass}`}
           >
-            <Phone size={20} /> 電話相談
+            <Phone size={20} /> 電話予約
           </a>
         </div>
       </div>
