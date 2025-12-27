@@ -3,7 +3,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>gold | ギャラ飲みマッチングサービス</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -12,6 +12,7 @@
         font-family: 'Noto+Sans+JP', sans-serif;
         background-color: #0a0a0a;
         color: #f5f5f5;
+        overflow-x: hidden;
       }
       .font-serif {
         font-family: 'Playfair Display', serif;
@@ -19,8 +20,19 @@
       html {
         scroll-behavior: smooth;
       }
+      /* カスタムスクロールバー */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 10px;
+      }
     </style>
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.2.3",
